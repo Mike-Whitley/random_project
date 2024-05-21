@@ -8,6 +8,8 @@ from selenium.webdriver.common.keys import Keys
 import nashpy as nash
 import numpy as np
 from gevent import monkey
+from multiprocessing import Pool
+
 
 logging.disable(logging.CRITICAL)
 
